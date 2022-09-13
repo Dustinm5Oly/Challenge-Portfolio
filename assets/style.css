@@ -32,7 +32,7 @@ nav a {
 }
 
 nav a:hover {
-    color:brown;
+    color:white;
     background-color: rgb(79, 194, 194);
 }
 
@@ -51,11 +51,12 @@ nav a:hover {
     display: flex;
     text-align: center;
     background-color: #467446;
+    opacity: .7;
     padding: 12px;
     font-size: 15px;
     margin-left: 3%;
     margin-right: 77%;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
 }
 
 .flex-container div {
