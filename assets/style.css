@@ -1,0 +1,70 @@
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: rgb(110, 226, 235);
+    color: black
+}
+
+nav ul {
+    display:flex;
+    justify-content: space-between;
+    min-width: 300px;
+    
+}
+
+nav li {
+    margin: 3px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(196, 156, 82);
+    padding: 8px 12px;
+    border: 1px solid black;
+}
+
+nav a:hover {
+    color:brown;
+    background-color: rgb(79, 194, 194);
+}
+
+.waves {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/Beach\ Waves.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 200%;
+    font-family: sans-serif;
+}
+
+h1::after {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    content: 'Portfolio';
+    color: #006600;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    header, main {
+        flex-direction: column;
+        padding: 5px 10px;
+    }
+    nav a {
+        padding: 5px 10px;
+        margin: 5% 0%;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+}
