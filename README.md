@@ -1,4 +1,4 @@
-# Challenger-Portfolio
+# Challenge-Portfolio
 
 ## This portfolio webpage is to display my work throughout the bootcamp and further down the road. It provides contact information, links to my other webpages and a short discription about me.
 
