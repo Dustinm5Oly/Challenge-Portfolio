@@ -27,6 +27,9 @@
 ```md
 ![webpage] (https://dustinm5oly.github.io/Challenge-Portfolio/)
 ```
+## License
+
+-MIT License
 
 ## Credits
 
