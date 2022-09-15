@@ -21,7 +21,11 @@
 -As a user you may visit this webpage and follow the links to check out my other work.
 
 ```md
-![webpage](../Challenge-Portfolio/images/Webpage.jpg)
+![image] (<img src="../Challenge-Portfolio/images/Webpage.jpg"></img>)
+```
+
+```md
+![webpage] (https://dustinm5oly.github.io/Challenge-Portfolio/)
 ```
 
 ## Credits
